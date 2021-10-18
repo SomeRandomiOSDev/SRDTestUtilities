@@ -1,0 +1,5 @@
+module SRDTestUtilitiesObjC {
+  header "SRDAssertions.h"
+  header "SRDExceptionHandling.h"
+  header "SRDTestCase.h"
+}

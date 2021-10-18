@@ -1,0 +1,20 @@
+name: Cocoapods
+on: [push, workflow_dispatch]
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: macOS-11
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+
+    - name: Setup Cocoapods
+      uses: maxim-lobanov/setup-cocoapods@v1
+      with:
+        version: latest
+
+    - name: Lint
+      run: |
+        pod lib lint

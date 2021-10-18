@@ -1,0 +1,6 @@
+SRDTestUtilities.xcodeproj/project.xcworkspace
+SRDTestUtilities.xcodeproj/xcuserdata
+
+.build
+.swiftpm
+scripts/build
