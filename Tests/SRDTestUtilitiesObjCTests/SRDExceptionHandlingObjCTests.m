@@ -8,6 +8,10 @@
 @import SRDTestUtilities;
 @import XCTest;
 
+#if defined(SWIFT_PACKAGE)
+@import SRDTestUtilitiesObjC;
+#endif // #if defined(SWIFT_PACKAGE)
+
 // MARK: - CustomException Interface
 
 @interface CustomException: NSException

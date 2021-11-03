@@ -200,7 +200,7 @@ extension SRDTestCase {
          `DispatchQueue.concurrentPerform(iterations:execute:)` is used for iterating.
        - block: The block used to process each combination.
      */
-    @objc(iterateAllCombinationsOfArray:maxIterations:concurrent:usingBlock:)
+    @objc(iterateAllCombinationsOfObjects:maxIterations:concurrent:usingBlock:)
     open func iterateAllCombinations(of array: NSArray, max: Int, concurrent: Bool, using block: (NSArray) -> Void) {
         let allCombinations = process(self.allCombinations(of: array as [AnyObject]), withMax: max)
         self.iterate(allCombinations, concurrent: concurrent) { array in
@@ -215,7 +215,7 @@ extension SRDTestCase {
        - array: An array of elements whose combinations will be iterated over.
        - block: The block used to process each combination.
      */
-    @objc(iterateAllCombinationsOfArray:usingBlock:)
+    @objc(iterateAllCombinationsOfObjects:usingBlock:)
     open func iterateAllCombinations(of array: NSArray, using block: (NSArray) -> Void) {
         self.iterateAllCombinations(of: array, max: .max, concurrent: true, using: block)
     }
@@ -234,7 +234,7 @@ extension SRDTestCase {
          `DispatchQueue.concurrentPerform(iterations:execute:)` is used for iterating.
        - block: The block used to process each permutation.
      */
-    @objc(iterateAllPermutationsOfArray:maxIterations:concurrent:usingBlock:)
+    @objc(iterateAllPermutationsOfObjects:maxIterations:concurrent:usingBlock:)
     open func iterateAllPermutations(of array: NSArray, max: Int, concurrent: Bool, using block: (NSArray) -> Void) {
         let allPermutations = process(self.allPermutations(of: array as [AnyObject]), withMax: max)
         self.iterate(allPermutations, concurrent: concurrent) { array in
@@ -249,7 +249,7 @@ extension SRDTestCase {
        - array: A sequence of elements whose permutations will be iterated over.
        - block: The block used to process each permutation.
      */
-    @objc(iterateAllPermutationsOfArray:usingBlock:)
+    @objc(iterateAllPermutationsOfObjects:usingBlock:)
     open func iterateAllPermutations(of array: NSArray, using block: (NSArray) -> Void) {
         self.iterateAllPermutations(of: array, max: .max, concurrent: true, using: block)
     }

@@ -8,6 +8,10 @@
 @import SRDTestUtilities;
 @import XCTest;
 
+#if defined(SWIFT_PACKAGE)
+@import SRDTestUtilitiesObjC;
+#endif // #if defined(SWIFT_PACKAGE)
+
 #undef pascal
 
 // MARK: - SRDTestCaseObjCTests Interface
@@ -81,9 +85,9 @@
             };
 
             if (concurrentValue.integerValue == 2) {
-                [self iterateAllCombinationsOfArray:self.testArray usingBlock:block];
+                [self iterateAllCombinationsOfObjects:self.testArray usingBlock:block];
             } else {
-                [self iterateAllCombinationsOfArray:self.testArray maxIterations:NSIntegerMax concurrent:concurrent usingBlock:block];
+                [self iterateAllCombinationsOfObjects:self.testArray maxIterations:NSIntegerMax concurrent:concurrent usingBlock:block];
             }
 
             if (concurrent) {
@@ -107,7 +111,7 @@
                 [XCTContext runActivityNamed:[NSString stringWithFormat:@"Max: %lu", (unsigned long)max] block:^(id _) {
                     NSMutableArray * const combinations = [NSMutableArray array];
 
-                    [self iterateAllCombinationsOfArray:self.testArray maxIterations:max concurrent:concurrent usingBlock:^(NSArray *combination) {
+                    [self iterateAllCombinationsOfObjects:self.testArray maxIterations:max concurrent:concurrent usingBlock:^(NSArray *combination) {
                         if (concurrent) {
                             dispatch_sync(queue, ^{ [combinations addObject:combination]; });
                         } else {
@@ -145,9 +149,9 @@
             };
 
             if (concurrentValue.integerValue == 2) {
-                [self iterateAllPermutationsOfArray:self.testArray usingBlock:block];
+                [self iterateAllPermutationsOfObjects:self.testArray usingBlock:block];
             } else {
-                [self iterateAllPermutationsOfArray:self.testArray maxIterations:NSIntegerMax concurrent:concurrent usingBlock:block];
+                [self iterateAllPermutationsOfObjects:self.testArray maxIterations:NSIntegerMax concurrent:concurrent usingBlock:block];
             }
 
             if (concurrent) {
@@ -171,7 +175,7 @@
                 [XCTContext runActivityNamed:[NSString stringWithFormat:@"Max: %lu", (unsigned long)max] block:^(id _) {
                     NSMutableArray * const permutations = [NSMutableArray array];
 
-                    [self iterateAllPermutationsOfArray:self.testArray maxIterations:max concurrent:concurrent usingBlock:^(NSArray *permutation) {
+                    [self iterateAllPermutationsOfObjects:self.testArray maxIterations:max concurrent:concurrent usingBlock:^(NSArray *permutation) {
                         if (concurrent) {
                             dispatch_sync(queue, ^{ [permutations addObject:permutation]; });
                         } else {

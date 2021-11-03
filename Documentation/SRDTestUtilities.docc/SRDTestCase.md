@@ -12,7 +12,7 @@ A custom base class for unit testing that provides various APIs for enabling bet
 ### Iterating Element Combinations
 
 - ``iterateAllCombinations(of:max:concurrent:using:)-88fwu``
-- ``iterateAllCombinations(of:max:concurrent:using:)-29zia``
+- ``iterateAllCombinations(of:max:concurrent:using:)-733e8``
 - ``iterateAllCombinations(of:using:)``
 
 ### Iterating Sequence Combinations
@@ -35,7 +35,7 @@ A custom base class for unit testing that provides various APIs for enabling bet
 ### Iterating Element Permutations
 
 - ``iterateAllPermutations(of:max:concurrent:using:)-48no2``
-- ``iterateAllPermutations(of:max:concurrent:using:)-91o13``
+- ``iterateAllPermutations(of:max:concurrent:using:)-6oqgb``
 - ``iterateAllPermutations(of:using:)``
 
 ### Working With Strings

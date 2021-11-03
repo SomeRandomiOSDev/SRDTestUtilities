@@ -8,6 +8,10 @@
 @import SRDTestUtilities;
 @import XCTest;
 
+#if defined(SWIFT_PACKAGE)
+@import SRDTestUtilitiesObjC;
+#endif // #if defined(SWIFT_PACKAGE)
+
 #if __has_include(<UIKit/UIKit.h>)
 #   import <UIKit/UIKit.h>
 #elif __has_include(<AppKit/AppKit.h>)
