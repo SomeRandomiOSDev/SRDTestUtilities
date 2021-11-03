@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     name: Upload Assets
-    runs-on: macOS-latest
+    runs-on: macOS-11
     env:
       TMPDIR: /tmp/.srdtestutilities.xcframework.build
 

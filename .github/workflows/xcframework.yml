@@ -4,7 +4,7 @@ on: [push, workflow_dispatch]
 jobs:
   build:
     name: Build
-    runs-on: macOS-latest
+    runs-on: macOS-11
     env:
       TMPDIR: /tmp/.srdtestutilities.xcframework.build
 
