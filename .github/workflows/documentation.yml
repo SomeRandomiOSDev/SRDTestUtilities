@@ -7,6 +7,7 @@ on:
     tags-ignore:
       - '**'
     paths:
+      - '.github/workflows/documentation.yml'
       - '**.swift' # DocC only considers Swift files
       - 'Documentation/SRDTestUtilities.docc/**'
 
