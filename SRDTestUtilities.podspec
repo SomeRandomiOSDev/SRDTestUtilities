@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
-  
+
   s.name         = "SRDTestUtilities"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "A collection of useful APIs for unit testing"
   s.description  = <<-DESC
                    A lightweight framework that provides a collection of APIs that are useful for unit testing.
                    DESC
-  
+
   s.homepage     = "https://github.com/SomeRandomiOSDev/SRDTestUtilities"
   s.license      = "MIT"
   s.author       = { "Joe Newton" => "somerandomiosdev@gmail.com" }
@@ -33,5 +33,5 @@ Pod::Spec.new do |s|
     ts.source_files              = 'Tests/SRDTestUtilitiesObjCTests/*Tests.m',
                                    'Tests/SRDTestUtilitiesSwiftTests/*Tests.swift'
   end
-  
+
 end
