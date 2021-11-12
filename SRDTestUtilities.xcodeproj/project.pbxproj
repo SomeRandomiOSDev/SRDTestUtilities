@@ -32,90 +32,6 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		DD295397273017030096A94E /* ReadWriteLock in Frameworks */ = {isa = PBXBuildFile; productRef = DD295396273017030096A94E /* ReadWriteLock */; };
-		DD29539A273017270096A94E /* ReadWriteLock in Frameworks */ = {isa = PBXBuildFile; productRef = DD295399273017270096A94E /* ReadWriteLock */; };
-		DD29539C2730172B0096A94E /* ReadWriteLock in Frameworks */ = {isa = PBXBuildFile; productRef = DD29539B2730172B0096A94E /* ReadWriteLock */; };
-		DD29539E2730172F0096A94E /* ReadWriteLock in Frameworks */ = {isa = PBXBuildFile; productRef = DD29539D2730172F0096A94E /* ReadWriteLock */; };
-		DD2953A42730177B0096A94E /* SRDTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29539F2730177A0096A94E /* SRDTestCase.swift */; };
-		DD2953A52730177B0096A94E /* SRDTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29539F2730177A0096A94E /* SRDTestCase.swift */; };
-		DD2953A62730177B0096A94E /* SRDTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29539F2730177A0096A94E /* SRDTestCase.swift */; };
-		DD2953A72730177B0096A94E /* SRDTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29539F2730177A0096A94E /* SRDTestCase.swift */; };
-		DD2953A82730177B0096A94E /* SRDAssertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953A02730177A0096A94E /* SRDAssertions.swift */; };
-		DD2953A92730177B0096A94E /* SRDAssertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953A02730177A0096A94E /* SRDAssertions.swift */; };
-		DD2953AA2730177B0096A94E /* SRDAssertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953A02730177A0096A94E /* SRDAssertions.swift */; };
-		DD2953AB2730177B0096A94E /* SRDAssertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953A02730177A0096A94E /* SRDAssertions.swift */; };
-		DD2953AC2730177B0096A94E /* SRDExceptionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953A12730177B0096A94E /* SRDExceptionError.swift */; };
-		DD2953AD2730177B0096A94E /* SRDExceptionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953A12730177B0096A94E /* SRDExceptionError.swift */; };
-		DD2953AE2730177B0096A94E /* SRDExceptionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953A12730177B0096A94E /* SRDExceptionError.swift */; };
-		DD2953AF2730177B0096A94E /* SRDExceptionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953A12730177B0096A94E /* SRDExceptionError.swift */; };
-		DD2953B02730177B0096A94E /* SRDStringCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953A22730177B0096A94E /* SRDStringCase.swift */; };
-		DD2953B12730177B0096A94E /* SRDStringCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953A22730177B0096A94E /* SRDStringCase.swift */; };
-		DD2953B22730177B0096A94E /* SRDStringCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953A22730177B0096A94E /* SRDStringCase.swift */; };
-		DD2953B32730177B0096A94E /* SRDStringCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953A22730177B0096A94E /* SRDStringCase.swift */; };
-		DD2953B42730177B0096A94E /* SRDExceptionHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953A32730177B0096A94E /* SRDExceptionHandling.swift */; };
-		DD2953B52730177B0096A94E /* SRDExceptionHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953A32730177B0096A94E /* SRDExceptionHandling.swift */; };
-		DD2953B62730177B0096A94E /* SRDExceptionHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953A32730177B0096A94E /* SRDExceptionHandling.swift */; };
-		DD2953B72730177B0096A94E /* SRDExceptionHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953A32730177B0096A94E /* SRDExceptionHandling.swift */; };
-		DD2953C3273017810096A94E /* SRDTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2953BA273017810096A94E /* SRDTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD2953C4273017810096A94E /* SRDTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2953BA273017810096A94E /* SRDTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD2953C5273017810096A94E /* SRDTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2953BA273017810096A94E /* SRDTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD2953C6273017810096A94E /* SRDTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2953BA273017810096A94E /* SRDTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD2953C7273017810096A94E /* SRDTestUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2953BB273017810096A94E /* SRDTestUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD2953C8273017810096A94E /* SRDTestUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2953BB273017810096A94E /* SRDTestUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD2953C9273017810096A94E /* SRDTestUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2953BB273017810096A94E /* SRDTestUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD2953CA273017810096A94E /* SRDTestUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2953BB273017810096A94E /* SRDTestUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD2953CB273017810096A94E /* SRDAssertions.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2953BC273017810096A94E /* SRDAssertions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD2953CC273017810096A94E /* SRDAssertions.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2953BC273017810096A94E /* SRDAssertions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD2953CD273017810096A94E /* SRDAssertions.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2953BC273017810096A94E /* SRDAssertions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD2953CE273017810096A94E /* SRDAssertions.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2953BC273017810096A94E /* SRDAssertions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD2953CF273017810096A94E /* SRDExceptionHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2953BE273017810096A94E /* SRDExceptionHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD2953D0273017810096A94E /* SRDExceptionHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2953BE273017810096A94E /* SRDExceptionHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD2953D1273017810096A94E /* SRDExceptionHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2953BE273017810096A94E /* SRDExceptionHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD2953D2273017810096A94E /* SRDExceptionHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2953BE273017810096A94E /* SRDExceptionHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD2953D3273017810096A94E /* SRDAssertions.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2953C0273017810096A94E /* SRDAssertions.m */; };
-		DD2953D4273017810096A94E /* SRDAssertions.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2953C0273017810096A94E /* SRDAssertions.m */; };
-		DD2953D5273017810096A94E /* SRDAssertions.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2953C0273017810096A94E /* SRDAssertions.m */; };
-		DD2953D6273017810096A94E /* SRDAssertions.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2953C0273017810096A94E /* SRDAssertions.m */; };
-		DD2953D7273017810096A94E /* SRDExceptionHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2953C1273017810096A94E /* SRDExceptionHandling.m */; };
-		DD2953D8273017810096A94E /* SRDExceptionHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2953C1273017810096A94E /* SRDExceptionHandling.m */; };
-		DD2953D9273017810096A94E /* SRDExceptionHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2953C1273017810096A94E /* SRDExceptionHandling.m */; };
-		DD2953DA273017810096A94E /* SRDExceptionHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2953C1273017810096A94E /* SRDExceptionHandling.m */; };
-		DD2953DB273017810096A94E /* SRDTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2953C2273017810096A94E /* SRDTestCase.m */; };
-		DD2953DC273017810096A94E /* SRDTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2953C2273017810096A94E /* SRDTestCase.m */; };
-		DD2953DD273017810096A94E /* SRDTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2953C2273017810096A94E /* SRDTestCase.m */; };
-		DD2953DE273017810096A94E /* SRDTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2953C2273017810096A94E /* SRDTestCase.m */; };
-		DD2953E9273017B50096A94E /* SRDExceptionHandlingObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E0273017B40096A94E /* SRDExceptionHandlingObjCTests.m */; };
-		DD2953EA273017B50096A94E /* SRDExceptionHandlingObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E0273017B40096A94E /* SRDExceptionHandlingObjCTests.m */; };
-		DD2953EB273017B50096A94E /* SRDExceptionHandlingObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E0273017B40096A94E /* SRDExceptionHandlingObjCTests.m */; };
-		DD2953EC273017B50096A94E /* SRDExceptionHandlingObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E0273017B40096A94E /* SRDExceptionHandlingObjCTests.m */; };
-		DD2953ED273017B50096A94E /* SRDAssertionsObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E1273017B40096A94E /* SRDAssertionsObjCTests.m */; };
-		DD2953EE273017B50096A94E /* SRDAssertionsObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E1273017B40096A94E /* SRDAssertionsObjCTests.m */; };
-		DD2953EF273017B50096A94E /* SRDAssertionsObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E1273017B40096A94E /* SRDAssertionsObjCTests.m */; };
-		DD2953F0273017B50096A94E /* SRDAssertionsObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E1273017B40096A94E /* SRDAssertionsObjCTests.m */; };
-		DD2953F1273017B50096A94E /* SRDTestCaseObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E2273017B40096A94E /* SRDTestCaseObjCTests.m */; };
-		DD2953F2273017B50096A94E /* SRDTestCaseObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E2273017B40096A94E /* SRDTestCaseObjCTests.m */; };
-		DD2953F3273017B50096A94E /* SRDTestCaseObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E2273017B40096A94E /* SRDTestCaseObjCTests.m */; };
-		DD2953F4273017B50096A94E /* SRDTestCaseObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E2273017B40096A94E /* SRDTestCaseObjCTests.m */; };
-		DD2953F5273017B50096A94E /* SRDTestCaseSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E4273017B40096A94E /* SRDTestCaseSwiftTests.swift */; };
-		DD2953F6273017B50096A94E /* SRDTestCaseSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E4273017B40096A94E /* SRDTestCaseSwiftTests.swift */; };
-		DD2953F7273017B50096A94E /* SRDTestCaseSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E4273017B40096A94E /* SRDTestCaseSwiftTests.swift */; };
-		DD2953F8273017B50096A94E /* SRDTestCaseSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E4273017B40096A94E /* SRDTestCaseSwiftTests.swift */; };
-		DD2953F9273017B50096A94E /* SRDExceptionHandlingSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E5273017B40096A94E /* SRDExceptionHandlingSwiftTests.swift */; };
-		DD2953FA273017B50096A94E /* SRDExceptionHandlingSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E5273017B40096A94E /* SRDExceptionHandlingSwiftTests.swift */; };
-		DD2953FB273017B50096A94E /* SRDExceptionHandlingSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E5273017B40096A94E /* SRDExceptionHandlingSwiftTests.swift */; };
-		DD2953FC273017B50096A94E /* SRDExceptionHandlingSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E5273017B40096A94E /* SRDExceptionHandlingSwiftTests.swift */; };
-		DD2953FD273017B50096A94E /* SRDAssertionsSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E6273017B40096A94E /* SRDAssertionsSwiftTests.swift */; };
-		DD2953FE273017B50096A94E /* SRDAssertionsSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E6273017B40096A94E /* SRDAssertionsSwiftTests.swift */; };
-		DD2953FF273017B50096A94E /* SRDAssertionsSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E6273017B40096A94E /* SRDAssertionsSwiftTests.swift */; };
-		DD295400273017B50096A94E /* SRDAssertionsSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E6273017B40096A94E /* SRDAssertionsSwiftTests.swift */; };
-		DD295401273017B50096A94E /* SRDExceptionErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E7273017B40096A94E /* SRDExceptionErrorTests.swift */; };
-		DD295402273017B50096A94E /* SRDExceptionErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E7273017B40096A94E /* SRDExceptionErrorTests.swift */; };
-		DD295403273017B50096A94E /* SRDExceptionErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E7273017B40096A94E /* SRDExceptionErrorTests.swift */; };
-		DD295404273017B50096A94E /* SRDExceptionErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E7273017B40096A94E /* SRDExceptionErrorTests.swift */; };
-		DD295405273017B50096A94E /* SRDExceptionErrorSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E8273017B40096A94E /* SRDExceptionErrorSwiftTests.swift */; };
-		DD295406273017B50096A94E /* SRDExceptionErrorSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E8273017B40096A94E /* SRDExceptionErrorSwiftTests.swift */; };
-		DD295407273017B50096A94E /* SRDExceptionErrorSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E8273017B40096A94E /* SRDExceptionErrorSwiftTests.swift */; };
-		DD295408273017B50096A94E /* SRDExceptionErrorSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2953E8273017B40096A94E /* SRDExceptionErrorSwiftTests.swift */; };
 		DD3BB7212731B47100DB55F8 /* SRDTestUtilities.docc in Sources */ = {isa = PBXBuildFile; fileRef = DD3BB7202731ADDA00DB55F8 /* SRDTestUtilities.docc */; };
 		DD3BB7222731B47100DB55F8 /* SRDTestUtilities.docc in Sources */ = {isa = PBXBuildFile; fileRef = DD3BB7202731ADDA00DB55F8 /* SRDTestUtilities.docc */; };
 		DD3BB7232731B47200DB55F8 /* SRDTestUtilities.docc in Sources */ = {isa = PBXBuildFile; fileRef = DD3BB7202731ADDA00DB55F8 /* SRDTestUtilities.docc */; };
@@ -124,6 +40,90 @@
 		DD86D54723D11B3E0046E63E /* SRDTestUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD86D53D23D11B3E0046E63E /* SRDTestUtilities.framework */; };
 		DD86D57923D11C860046E63E /* SRDTestUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD86D57023D11C860046E63E /* SRDTestUtilities.framework */; };
 		DD86D59523D11CA00046E63E /* SRDTestUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD86D58C23D11CA00046E63E /* SRDTestUtilities.framework */; };
+		DDA42140273E143700F2B0BC /* ReadWriteLock in Frameworks */ = {isa = PBXBuildFile; productRef = DDA4213F273E143700F2B0BC /* ReadWriteLock */; };
+		DDA42143273E144900F2B0BC /* ReadWriteLock in Frameworks */ = {isa = PBXBuildFile; productRef = DDA42142273E144900F2B0BC /* ReadWriteLock */; };
+		DDA42145273E144C00F2B0BC /* ReadWriteLock in Frameworks */ = {isa = PBXBuildFile; productRef = DDA42144273E144C00F2B0BC /* ReadWriteLock */; };
+		DDA42147273E145000F2B0BC /* ReadWriteLock in Frameworks */ = {isa = PBXBuildFile; productRef = DDA42146273E145000F2B0BC /* ReadWriteLock */; };
+		DDA4215D273E172D00F2B0BC /* SRDExceptionHandlingObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA42154273E172D00F2B0BC /* SRDExceptionHandlingObjCTests.m */; };
+		DDA4215E273E172D00F2B0BC /* SRDExceptionHandlingObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA42154273E172D00F2B0BC /* SRDExceptionHandlingObjCTests.m */; };
+		DDA4215F273E172D00F2B0BC /* SRDExceptionHandlingObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA42154273E172D00F2B0BC /* SRDExceptionHandlingObjCTests.m */; };
+		DDA42160273E172D00F2B0BC /* SRDExceptionHandlingObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA42154273E172D00F2B0BC /* SRDExceptionHandlingObjCTests.m */; };
+		DDA42161273E172D00F2B0BC /* SRDAssertionsObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA42155273E172D00F2B0BC /* SRDAssertionsObjCTests.m */; };
+		DDA42162273E172D00F2B0BC /* SRDAssertionsObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA42155273E172D00F2B0BC /* SRDAssertionsObjCTests.m */; };
+		DDA42163273E172D00F2B0BC /* SRDAssertionsObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA42155273E172D00F2B0BC /* SRDAssertionsObjCTests.m */; };
+		DDA42164273E172D00F2B0BC /* SRDAssertionsObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA42155273E172D00F2B0BC /* SRDAssertionsObjCTests.m */; };
+		DDA42165273E172D00F2B0BC /* SRDTestCaseObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA42156273E172D00F2B0BC /* SRDTestCaseObjCTests.m */; };
+		DDA42166273E172D00F2B0BC /* SRDTestCaseObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA42156273E172D00F2B0BC /* SRDTestCaseObjCTests.m */; };
+		DDA42167273E172D00F2B0BC /* SRDTestCaseObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA42156273E172D00F2B0BC /* SRDTestCaseObjCTests.m */; };
+		DDA42168273E172D00F2B0BC /* SRDTestCaseObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA42156273E172D00F2B0BC /* SRDTestCaseObjCTests.m */; };
+		DDA42169273E172D00F2B0BC /* SRDTestCaseSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA42158273E172D00F2B0BC /* SRDTestCaseSwiftTests.swift */; };
+		DDA4216A273E172D00F2B0BC /* SRDTestCaseSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA42158273E172D00F2B0BC /* SRDTestCaseSwiftTests.swift */; };
+		DDA4216B273E172D00F2B0BC /* SRDTestCaseSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA42158273E172D00F2B0BC /* SRDTestCaseSwiftTests.swift */; };
+		DDA4216C273E172D00F2B0BC /* SRDTestCaseSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA42158273E172D00F2B0BC /* SRDTestCaseSwiftTests.swift */; };
+		DDA4216D273E172D00F2B0BC /* SRDExceptionHandlingSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA42159273E172D00F2B0BC /* SRDExceptionHandlingSwiftTests.swift */; };
+		DDA4216E273E172D00F2B0BC /* SRDExceptionHandlingSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA42159273E172D00F2B0BC /* SRDExceptionHandlingSwiftTests.swift */; };
+		DDA4216F273E172D00F2B0BC /* SRDExceptionHandlingSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA42159273E172D00F2B0BC /* SRDExceptionHandlingSwiftTests.swift */; };
+		DDA42170273E172D00F2B0BC /* SRDExceptionHandlingSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA42159273E172D00F2B0BC /* SRDExceptionHandlingSwiftTests.swift */; };
+		DDA42171273E172D00F2B0BC /* SRDAssertionsSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4215A273E172D00F2B0BC /* SRDAssertionsSwiftTests.swift */; };
+		DDA42172273E172D00F2B0BC /* SRDAssertionsSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4215A273E172D00F2B0BC /* SRDAssertionsSwiftTests.swift */; };
+		DDA42173273E172D00F2B0BC /* SRDAssertionsSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4215A273E172D00F2B0BC /* SRDAssertionsSwiftTests.swift */; };
+		DDA42174273E172D00F2B0BC /* SRDAssertionsSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4215A273E172D00F2B0BC /* SRDAssertionsSwiftTests.swift */; };
+		DDA42175273E172D00F2B0BC /* SRDExceptionErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4215B273E172D00F2B0BC /* SRDExceptionErrorTests.swift */; };
+		DDA42176273E172D00F2B0BC /* SRDExceptionErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4215B273E172D00F2B0BC /* SRDExceptionErrorTests.swift */; };
+		DDA42177273E172D00F2B0BC /* SRDExceptionErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4215B273E172D00F2B0BC /* SRDExceptionErrorTests.swift */; };
+		DDA42178273E172D00F2B0BC /* SRDExceptionErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4215B273E172D00F2B0BC /* SRDExceptionErrorTests.swift */; };
+		DDA42179273E172D00F2B0BC /* SRDExceptionErrorSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4215C273E172D00F2B0BC /* SRDExceptionErrorSwiftTests.swift */; };
+		DDA4217A273E172D00F2B0BC /* SRDExceptionErrorSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4215C273E172D00F2B0BC /* SRDExceptionErrorSwiftTests.swift */; };
+		DDA4217B273E172D00F2B0BC /* SRDExceptionErrorSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4215C273E172D00F2B0BC /* SRDExceptionErrorSwiftTests.swift */; };
+		DDA4217C273E172D00F2B0BC /* SRDExceptionErrorSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4215C273E172D00F2B0BC /* SRDExceptionErrorSwiftTests.swift */; };
+		DDA4218E273E173C00F2B0BC /* SRDAssertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4217E273E173C00F2B0BC /* SRDAssertions.swift */; };
+		DDA4218F273E173C00F2B0BC /* SRDAssertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4217E273E173C00F2B0BC /* SRDAssertions.swift */; };
+		DDA42190273E173C00F2B0BC /* SRDAssertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4217E273E173C00F2B0BC /* SRDAssertions.swift */; };
+		DDA42191273E173C00F2B0BC /* SRDAssertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4217E273E173C00F2B0BC /* SRDAssertions.swift */; };
+		DDA42192273E173C00F2B0BC /* SRDStringCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4217F273E173C00F2B0BC /* SRDStringCase.swift */; };
+		DDA42193273E173C00F2B0BC /* SRDStringCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4217F273E173C00F2B0BC /* SRDStringCase.swift */; };
+		DDA42194273E173C00F2B0BC /* SRDStringCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4217F273E173C00F2B0BC /* SRDStringCase.swift */; };
+		DDA42195273E173C00F2B0BC /* SRDStringCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA4217F273E173C00F2B0BC /* SRDStringCase.swift */; };
+		DDA42196273E173C00F2B0BC /* SRDExceptionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA42180273E173C00F2B0BC /* SRDExceptionError.swift */; };
+		DDA42197273E173C00F2B0BC /* SRDExceptionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA42180273E173C00F2B0BC /* SRDExceptionError.swift */; };
+		DDA42198273E173C00F2B0BC /* SRDExceptionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA42180273E173C00F2B0BC /* SRDExceptionError.swift */; };
+		DDA42199273E173C00F2B0BC /* SRDExceptionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA42180273E173C00F2B0BC /* SRDExceptionError.swift */; };
+		DDA4219A273E173C00F2B0BC /* SRDExceptionHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA42181273E173C00F2B0BC /* SRDExceptionHandling.swift */; };
+		DDA4219B273E173C00F2B0BC /* SRDExceptionHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA42181273E173C00F2B0BC /* SRDExceptionHandling.swift */; };
+		DDA4219C273E173C00F2B0BC /* SRDExceptionHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA42181273E173C00F2B0BC /* SRDExceptionHandling.swift */; };
+		DDA4219D273E173C00F2B0BC /* SRDExceptionHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA42181273E173C00F2B0BC /* SRDExceptionHandling.swift */; };
+		DDA4219E273E173C00F2B0BC /* SRDTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA42182273E173C00F2B0BC /* SRDTestCase.swift */; };
+		DDA4219F273E173C00F2B0BC /* SRDTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA42182273E173C00F2B0BC /* SRDTestCase.swift */; };
+		DDA421A0273E173C00F2B0BC /* SRDTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA42182273E173C00F2B0BC /* SRDTestCase.swift */; };
+		DDA421A1273E173C00F2B0BC /* SRDTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA42182273E173C00F2B0BC /* SRDTestCase.swift */; };
+		DDA421A2273E173C00F2B0BC /* SRDTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA42185273E173C00F2B0BC /* SRDTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA421A3273E173C00F2B0BC /* SRDTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA42185273E173C00F2B0BC /* SRDTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA421A4273E173C00F2B0BC /* SRDTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA42185273E173C00F2B0BC /* SRDTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA421A5273E173C00F2B0BC /* SRDTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA42185273E173C00F2B0BC /* SRDTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA421A6273E173C00F2B0BC /* SRDTestUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA42186273E173C00F2B0BC /* SRDTestUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA421A7273E173C00F2B0BC /* SRDTestUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA42186273E173C00F2B0BC /* SRDTestUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA421A8273E173C00F2B0BC /* SRDTestUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA42186273E173C00F2B0BC /* SRDTestUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA421A9273E173C00F2B0BC /* SRDTestUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA42186273E173C00F2B0BC /* SRDTestUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA421AA273E173C00F2B0BC /* SRDAssertions.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA42187273E173C00F2B0BC /* SRDAssertions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA421AB273E173C00F2B0BC /* SRDAssertions.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA42187273E173C00F2B0BC /* SRDAssertions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA421AC273E173C00F2B0BC /* SRDAssertions.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA42187273E173C00F2B0BC /* SRDAssertions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA421AD273E173C00F2B0BC /* SRDAssertions.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA42187273E173C00F2B0BC /* SRDAssertions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA421AE273E173C00F2B0BC /* SRDExceptionHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA42189273E173C00F2B0BC /* SRDExceptionHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA421AF273E173C00F2B0BC /* SRDExceptionHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA42189273E173C00F2B0BC /* SRDExceptionHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA421B0273E173C00F2B0BC /* SRDExceptionHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA42189273E173C00F2B0BC /* SRDExceptionHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA421B1273E173C00F2B0BC /* SRDExceptionHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA42189273E173C00F2B0BC /* SRDExceptionHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA421B2273E173C00F2B0BC /* SRDAssertions.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA4218B273E173C00F2B0BC /* SRDAssertions.m */; };
+		DDA421B3273E173C00F2B0BC /* SRDAssertions.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA4218B273E173C00F2B0BC /* SRDAssertions.m */; };
+		DDA421B4273E173C00F2B0BC /* SRDAssertions.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA4218B273E173C00F2B0BC /* SRDAssertions.m */; };
+		DDA421B5273E173C00F2B0BC /* SRDAssertions.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA4218B273E173C00F2B0BC /* SRDAssertions.m */; };
+		DDA421B6273E173C00F2B0BC /* SRDExceptionHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA4218C273E173C00F2B0BC /* SRDExceptionHandling.m */; };
+		DDA421B7273E173C00F2B0BC /* SRDExceptionHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA4218C273E173C00F2B0BC /* SRDExceptionHandling.m */; };
+		DDA421B8273E173C00F2B0BC /* SRDExceptionHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA4218C273E173C00F2B0BC /* SRDExceptionHandling.m */; };
+		DDA421B9273E173C00F2B0BC /* SRDExceptionHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA4218C273E173C00F2B0BC /* SRDExceptionHandling.m */; };
+		DDA421BA273E173C00F2B0BC /* SRDTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA4218D273E173C00F2B0BC /* SRDTestCase.m */; };
+		DDA421BB273E173C00F2B0BC /* SRDTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA4218D273E173C00F2B0BC /* SRDTestCase.m */; };
+		DDA421BC273E173C00F2B0BC /* SRDTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA4218D273E173C00F2B0BC /* SRDTestCase.m */; };
+		DDA421BD273E173C00F2B0BC /* SRDTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA4218D273E173C00F2B0BC /* SRDTestCase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -187,27 +187,6 @@
 
 /* Begin PBXFileReference section */
 		DD17A9F9257744BC00D30599 /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = scripts; sourceTree = "<group>"; };
-		DD29539F2730177A0096A94E /* SRDTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRDTestCase.swift; sourceTree = "<group>"; };
-		DD2953A02730177A0096A94E /* SRDAssertions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRDAssertions.swift; sourceTree = "<group>"; };
-		DD2953A12730177B0096A94E /* SRDExceptionError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRDExceptionError.swift; sourceTree = "<group>"; };
-		DD2953A22730177B0096A94E /* SRDStringCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRDStringCase.swift; sourceTree = "<group>"; };
-		DD2953A32730177B0096A94E /* SRDExceptionHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRDExceptionHandling.swift; sourceTree = "<group>"; };
-		DD2953BA273017810096A94E /* SRDTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRDTestCase.h; sourceTree = "<group>"; };
-		DD2953BB273017810096A94E /* SRDTestUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRDTestUtilities.h; sourceTree = "<group>"; };
-		DD2953BC273017810096A94E /* SRDAssertions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRDAssertions.h; sourceTree = "<group>"; };
-		DD2953BD273017810096A94E /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		DD2953BE273017810096A94E /* SRDExceptionHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRDExceptionHandling.h; sourceTree = "<group>"; };
-		DD2953C0273017810096A94E /* SRDAssertions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRDAssertions.m; sourceTree = "<group>"; };
-		DD2953C1273017810096A94E /* SRDExceptionHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRDExceptionHandling.m; sourceTree = "<group>"; };
-		DD2953C2273017810096A94E /* SRDTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRDTestCase.m; sourceTree = "<group>"; };
-		DD2953E0273017B40096A94E /* SRDExceptionHandlingObjCTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRDExceptionHandlingObjCTests.m; sourceTree = "<group>"; };
-		DD2953E1273017B40096A94E /* SRDAssertionsObjCTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRDAssertionsObjCTests.m; sourceTree = "<group>"; };
-		DD2953E2273017B40096A94E /* SRDTestCaseObjCTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRDTestCaseObjCTests.m; sourceTree = "<group>"; };
-		DD2953E4273017B40096A94E /* SRDTestCaseSwiftTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRDTestCaseSwiftTests.swift; sourceTree = "<group>"; };
-		DD2953E5273017B40096A94E /* SRDExceptionHandlingSwiftTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRDExceptionHandlingSwiftTests.swift; sourceTree = "<group>"; };
-		DD2953E6273017B40096A94E /* SRDAssertionsSwiftTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRDAssertionsSwiftTests.swift; sourceTree = "<group>"; };
-		DD2953E7273017B40096A94E /* SRDExceptionErrorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRDExceptionErrorTests.swift; sourceTree = "<group>"; };
-		DD2953E8273017B40096A94E /* SRDExceptionErrorSwiftTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRDExceptionErrorSwiftTests.swift; sourceTree = "<group>"; };
 		DD3BB7202731ADDA00DB55F8 /* SRDTestUtilities.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SRDTestUtilities.docc; sourceTree = "<group>"; };
 		DD48BC94270E0DE800D842BC /* SRDTestUtilitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRDTestUtilitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD48BC9F270E0F4500D842BC /* SRDTestUtilitiesTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = SRDTestUtilitiesTests.xctestplan; sourceTree = "<group>"; };
@@ -225,10 +204,31 @@
 		DD86D5C423D11D140046E63E /* SRDTestUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SRDTestUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD86D5DE23D22DB90046E63E /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		DD86D5DF23D22DB90046E63E /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = SOURCE_ROOT; };
-		DD86D5E023D22DB90046E63E /* SRDTestUtilities.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = SRDTestUtilities.podspec; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DD86D5E023D22DB90046E63E /* SRDTestUtilities.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = SRDTestUtilities.podspec; sourceTree = SOURCE_ROOT; };
 		DD86D5E123D22DB90046E63E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		DD86D5E323D22DC30046E63E /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
-		DDA26DBD256EA4D700E1C6D7 /* workflows */ = {isa = PBXFileReference; lastKnownFileType = folder; name = workflows; path = .github/workflows; sourceTree = "<group>"; };
+		DDA42148273E153D00F2B0BC /* github */ = {isa = PBXFileReference; lastKnownFileType = folder; name = github; path = .github; sourceTree = "<group>"; };
+		DDA42154273E172D00F2B0BC /* SRDExceptionHandlingObjCTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRDExceptionHandlingObjCTests.m; sourceTree = "<group>"; };
+		DDA42155273E172D00F2B0BC /* SRDAssertionsObjCTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRDAssertionsObjCTests.m; sourceTree = "<group>"; };
+		DDA42156273E172D00F2B0BC /* SRDTestCaseObjCTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRDTestCaseObjCTests.m; sourceTree = "<group>"; };
+		DDA42158273E172D00F2B0BC /* SRDTestCaseSwiftTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRDTestCaseSwiftTests.swift; sourceTree = "<group>"; };
+		DDA42159273E172D00F2B0BC /* SRDExceptionHandlingSwiftTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRDExceptionHandlingSwiftTests.swift; sourceTree = "<group>"; };
+		DDA4215A273E172D00F2B0BC /* SRDAssertionsSwiftTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRDAssertionsSwiftTests.swift; sourceTree = "<group>"; };
+		DDA4215B273E172D00F2B0BC /* SRDExceptionErrorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRDExceptionErrorTests.swift; sourceTree = "<group>"; };
+		DDA4215C273E172D00F2B0BC /* SRDExceptionErrorSwiftTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRDExceptionErrorSwiftTests.swift; sourceTree = "<group>"; };
+		DDA4217E273E173C00F2B0BC /* SRDAssertions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRDAssertions.swift; sourceTree = "<group>"; };
+		DDA4217F273E173C00F2B0BC /* SRDStringCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRDStringCase.swift; sourceTree = "<group>"; };
+		DDA42180273E173C00F2B0BC /* SRDExceptionError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRDExceptionError.swift; sourceTree = "<group>"; };
+		DDA42181273E173C00F2B0BC /* SRDExceptionHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRDExceptionHandling.swift; sourceTree = "<group>"; };
+		DDA42182273E173C00F2B0BC /* SRDTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRDTestCase.swift; sourceTree = "<group>"; };
+		DDA42185273E173C00F2B0BC /* SRDTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRDTestCase.h; sourceTree = "<group>"; };
+		DDA42186273E173C00F2B0BC /* SRDTestUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRDTestUtilities.h; sourceTree = "<group>"; };
+		DDA42187273E173C00F2B0BC /* SRDAssertions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRDAssertions.h; sourceTree = "<group>"; };
+		DDA42188273E173C00F2B0BC /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		DDA42189273E173C00F2B0BC /* SRDExceptionHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRDExceptionHandling.h; sourceTree = "<group>"; };
+		DDA4218B273E173C00F2B0BC /* SRDAssertions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRDAssertions.m; sourceTree = "<group>"; };
+		DDA4218C273E173C00F2B0BC /* SRDExceptionHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRDExceptionHandling.m; sourceTree = "<group>"; };
+		DDA4218D273E173C00F2B0BC /* SRDTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRDTestCase.m; sourceTree = "<group>"; };
 		DDB1DE5C2405EEE300C20FED /* codecov.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = codecov.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -245,7 +245,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD295397273017030096A94E /* ReadWriteLock in Frameworks */,
+				DDA42140273E143700F2B0BC /* ReadWriteLock in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +261,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD29539A273017270096A94E /* ReadWriteLock in Frameworks */,
+				DDA42143273E144900F2B0BC /* ReadWriteLock in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +277,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD29539C2730172B0096A94E /* ReadWriteLock in Frameworks */,
+				DDA42145273E144C00F2B0BC /* ReadWriteLock in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,73 +293,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD29539E2730172F0096A94E /* ReadWriteLock in Frameworks */,
+				DDA42147273E145000F2B0BC /* ReadWriteLock in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DD295398273017270096A94E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DD2953B8273017810096A94E /* SRDTestUtilitiesObjC */ = {
-			isa = PBXGroup;
-			children = (
-				DD2953B9273017810096A94E /* include */,
-				DD2953BF273017810096A94E /* src */,
-			);
-			path = SRDTestUtilitiesObjC;
-			sourceTree = "<group>";
-		};
-		DD2953B9273017810096A94E /* include */ = {
-			isa = PBXGroup;
-			children = (
-				DD2953BD273017810096A94E /* module.modulemap */,
-				DD2953BC273017810096A94E /* SRDAssertions.h */,
-				DD2953BE273017810096A94E /* SRDExceptionHandling.h */,
-				DD2953BA273017810096A94E /* SRDTestCase.h */,
-				DD2953BB273017810096A94E /* SRDTestUtilities.h */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		DD2953BF273017810096A94E /* src */ = {
-			isa = PBXGroup;
-			children = (
-				DD2953C0273017810096A94E /* SRDAssertions.m */,
-				DD2953C1273017810096A94E /* SRDExceptionHandling.m */,
-				DD2953C2273017810096A94E /* SRDTestCase.m */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		DD2953DF273017B40096A94E /* SRDTestUtilitiesObjCTests */ = {
-			isa = PBXGroup;
-			children = (
-				DD2953E1273017B40096A94E /* SRDAssertionsObjCTests.m */,
-				DD2953E0273017B40096A94E /* SRDExceptionHandlingObjCTests.m */,
-				DD2953E2273017B40096A94E /* SRDTestCaseObjCTests.m */,
-			);
-			path = SRDTestUtilitiesObjCTests;
-			sourceTree = "<group>";
-		};
-		DD2953E3273017B40096A94E /* SRDTestUtilitiesSwiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				DD2953E6273017B40096A94E /* SRDAssertionsSwiftTests.swift */,
-				DD2953E8273017B40096A94E /* SRDExceptionErrorSwiftTests.swift */,
-				DD2953E7273017B40096A94E /* SRDExceptionErrorTests.swift */,
-				DD2953E5273017B40096A94E /* SRDExceptionHandlingSwiftTests.swift */,
-				DD2953E4273017B40096A94E /* SRDTestCaseSwiftTests.swift */,
-			);
-			path = SRDTestUtilitiesSwiftTests;
-			sourceTree = "<group>";
-		};
 		DD3BB71F2731AD4F00DB55F8 /* Documentation */ = {
 			isa = PBXGroup;
 			children = (
@@ -379,24 +319,12 @@
 			path = "Test Plans";
 			sourceTree = "<group>";
 		};
-		DD5D04E52621361600BA0FC2 /* SRDTestUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				DD2953A02730177A0096A94E /* SRDAssertions.swift */,
-				DD2953A12730177B0096A94E /* SRDExceptionError.swift */,
-				DD2953A32730177B0096A94E /* SRDExceptionHandling.swift */,
-				DD2953A22730177B0096A94E /* SRDStringCase.swift */,
-				DD29539F2730177A0096A94E /* SRDTestCase.swift */,
-			);
-			path = SRDTestUtilities;
-			sourceTree = "<group>";
-		};
 		DD86D53323D11B3E0046E63E = {
 			isa = PBXGroup;
 			children = (
 				DD86D53F23D11B3E0046E63E /* SRDTestUtilities */,
 				DD86D53E23D11B3E0046E63E /* Products */,
-				DD295398273017270096A94E /* Frameworks */,
+				DDA42141273E144900F2B0BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -429,8 +357,8 @@
 		DD86D55B23D11BA80046E63E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DDA42148273E153D00F2B0BC /* github */,
 				DD17A9F9257744BC00D30599 /* scripts */,
-				DDA26DBD256EA4D700E1C6D7 /* workflows */,
 				DD86D5E023D22DB90046E63E /* SRDTestUtilities.podspec */,
 				DD86D5DF23D22DB90046E63E /* Package.swift */,
 				DDB1DE5C2405EEE300C20FED /* codecov.yml */,
@@ -443,11 +371,83 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DDA42141273E144900F2B0BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDA42153273E172D00F2B0BC /* SRDTestUtilitiesObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDA42155273E172D00F2B0BC /* SRDAssertionsObjCTests.m */,
+				DDA42154273E172D00F2B0BC /* SRDExceptionHandlingObjCTests.m */,
+				DDA42156273E172D00F2B0BC /* SRDTestCaseObjCTests.m */,
+			);
+			path = SRDTestUtilitiesObjCTests;
+			sourceTree = "<group>";
+		};
+		DDA42157273E172D00F2B0BC /* SRDTestUtilitiesSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDA4215A273E172D00F2B0BC /* SRDAssertionsSwiftTests.swift */,
+				DDA4215C273E172D00F2B0BC /* SRDExceptionErrorSwiftTests.swift */,
+				DDA4215B273E172D00F2B0BC /* SRDExceptionErrorTests.swift */,
+				DDA42159273E172D00F2B0BC /* SRDExceptionHandlingSwiftTests.swift */,
+				DDA42158273E172D00F2B0BC /* SRDTestCaseSwiftTests.swift */,
+			);
+			path = SRDTestUtilitiesSwiftTests;
+			sourceTree = "<group>";
+		};
+		DDA4217D273E173C00F2B0BC /* SRDTestUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				DDA4217E273E173C00F2B0BC /* SRDAssertions.swift */,
+				DDA42180273E173C00F2B0BC /* SRDExceptionError.swift */,
+				DDA42181273E173C00F2B0BC /* SRDExceptionHandling.swift */,
+				DDA4217F273E173C00F2B0BC /* SRDStringCase.swift */,
+				DDA42182273E173C00F2B0BC /* SRDTestCase.swift */,
+			);
+			path = SRDTestUtilities;
+			sourceTree = "<group>";
+		};
+		DDA42183273E173C00F2B0BC /* SRDTestUtilitiesObjC */ = {
+			isa = PBXGroup;
+			children = (
+				DDA42184273E173C00F2B0BC /* include */,
+				DDA4218A273E173C00F2B0BC /* src */,
+			);
+			path = SRDTestUtilitiesObjC;
+			sourceTree = "<group>";
+		};
+		DDA42184273E173C00F2B0BC /* include */ = {
+			isa = PBXGroup;
+			children = (
+				DDA42188273E173C00F2B0BC /* module.modulemap */,
+				DDA42187273E173C00F2B0BC /* SRDAssertions.h */,
+				DDA42189273E173C00F2B0BC /* SRDExceptionHandling.h */,
+				DDA42185273E173C00F2B0BC /* SRDTestCase.h */,
+				DDA42186273E173C00F2B0BC /* SRDTestUtilities.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		DDA4218A273E173C00F2B0BC /* src */ = {
+			isa = PBXGroup;
+			children = (
+				DDA4218B273E173C00F2B0BC /* SRDAssertions.m */,
+				DDA4218C273E173C00F2B0BC /* SRDExceptionHandling.m */,
+				DDA4218D273E173C00F2B0BC /* SRDTestCase.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		DDB1DE252405EE5F00C20FED /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				DD5D04E52621361600BA0FC2 /* SRDTestUtilities */,
-				DD2953B8273017810096A94E /* SRDTestUtilitiesObjC */,
+				DDA4217D273E173C00F2B0BC /* SRDTestUtilities */,
+				DDA42183273E173C00F2B0BC /* SRDTestUtilitiesObjC */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -455,8 +455,8 @@
 		DDB1DE502405EE9900C20FED /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				DD2953DF273017B40096A94E /* SRDTestUtilitiesObjCTests */,
-				DD2953E3273017B40096A94E /* SRDTestUtilitiesSwiftTests */,
+				DDA42153273E172D00F2B0BC /* SRDTestUtilitiesObjCTests */,
+				DDA42157273E172D00F2B0BC /* SRDTestUtilitiesSwiftTests */,
 				DD48BC9E270E0F1300D842BC /* Test Plans */,
 			);
 			path = Tests;
@@ -469,10 +469,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD2953C3273017810096A94E /* SRDTestCase.h in Headers */,
-				DD2953CF273017810096A94E /* SRDExceptionHandling.h in Headers */,
-				DD2953C7273017810096A94E /* SRDTestUtilities.h in Headers */,
-				DD2953CB273017810096A94E /* SRDAssertions.h in Headers */,
+				DDA421A2273E173C00F2B0BC /* SRDTestCase.h in Headers */,
+				DDA421AE273E173C00F2B0BC /* SRDExceptionHandling.h in Headers */,
+				DDA421A6273E173C00F2B0BC /* SRDTestUtilities.h in Headers */,
+				DDA421AA273E173C00F2B0BC /* SRDAssertions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,10 +480,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD2953C4273017810096A94E /* SRDTestCase.h in Headers */,
-				DD2953D0273017810096A94E /* SRDExceptionHandling.h in Headers */,
-				DD2953C8273017810096A94E /* SRDTestUtilities.h in Headers */,
-				DD2953CC273017810096A94E /* SRDAssertions.h in Headers */,
+				DDA421A3273E173C00F2B0BC /* SRDTestCase.h in Headers */,
+				DDA421AF273E173C00F2B0BC /* SRDExceptionHandling.h in Headers */,
+				DDA421A7273E173C00F2B0BC /* SRDTestUtilities.h in Headers */,
+				DDA421AB273E173C00F2B0BC /* SRDAssertions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,10 +491,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD2953C5273017810096A94E /* SRDTestCase.h in Headers */,
-				DD2953D1273017810096A94E /* SRDExceptionHandling.h in Headers */,
-				DD2953C9273017810096A94E /* SRDTestUtilities.h in Headers */,
-				DD2953CD273017810096A94E /* SRDAssertions.h in Headers */,
+				DDA421A4273E173C00F2B0BC /* SRDTestCase.h in Headers */,
+				DDA421B0273E173C00F2B0BC /* SRDExceptionHandling.h in Headers */,
+				DDA421A8273E173C00F2B0BC /* SRDTestUtilities.h in Headers */,
+				DDA421AC273E173C00F2B0BC /* SRDAssertions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,10 +502,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD2953C6273017810096A94E /* SRDTestCase.h in Headers */,
-				DD2953D2273017810096A94E /* SRDExceptionHandling.h in Headers */,
-				DD2953CA273017810096A94E /* SRDTestUtilities.h in Headers */,
-				DD2953CE273017810096A94E /* SRDAssertions.h in Headers */,
+				DDA421A5273E173C00F2B0BC /* SRDTestCase.h in Headers */,
+				DDA421B1273E173C00F2B0BC /* SRDExceptionHandling.h in Headers */,
+				DDA421A9273E173C00F2B0BC /* SRDTestUtilities.h in Headers */,
+				DDA421AD273E173C00F2B0BC /* SRDAssertions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,7 +546,7 @@
 			);
 			name = SRDTestUtilities;
 			packageProductDependencies = (
-				DD295396273017030096A94E /* ReadWriteLock */,
+				DDA4213F273E143700F2B0BC /* ReadWriteLock */,
 			);
 			productName = SRDTestUtilities;
 			productReference = DD86D53D23D11B3E0046E63E /* SRDTestUtilities.framework */;
@@ -586,7 +586,7 @@
 			);
 			name = "SRDTestUtilities macOS";
 			packageProductDependencies = (
-				DD295399273017270096A94E /* ReadWriteLock */,
+				DDA42142273E144900F2B0BC /* ReadWriteLock */,
 			);
 			productName = "SRDTestUtilities macOS";
 			productReference = DD86D57023D11C860046E63E /* SRDTestUtilities.framework */;
@@ -626,7 +626,7 @@
 			);
 			name = "SRDTestUtilities tvOS";
 			packageProductDependencies = (
-				DD29539B2730172B0096A94E /* ReadWriteLock */,
+				DDA42144273E144C00F2B0BC /* ReadWriteLock */,
 			);
 			productName = "SRDTestUtilities tvOS";
 			productReference = DD86D58C23D11CA00046E63E /* SRDTestUtilities.framework */;
@@ -666,7 +666,7 @@
 			);
 			name = "SRDTestUtilities watchOS";
 			packageProductDependencies = (
-				DD29539D2730172F0096A94E /* ReadWriteLock */,
+				DDA42146273E145000F2B0BC /* ReadWriteLock */,
 			);
 			productName = "SRDTestUtilities watchOS";
 			productReference = DD86D5C423D11D140046E63E /* SRDTestUtilities.framework */;
@@ -678,49 +678,49 @@
 		DD86D53423D11B3E0046E63E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1300;
+				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				ORGANIZATIONNAME = SomeRandomiOSDev;
 				TargetAttributes = {
 					DD2FBC27258BE8BB00DB3211 = {
-						CreatedOnToolsVersion = 13.0;
-						LastSwiftMigration = 1300;
+						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 					DD48BC93270E0DE800D842BC = {
-						CreatedOnToolsVersion = 13.0;
-						LastSwiftMigration = 1300;
+						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 					DD86D53C23D11B3E0046E63E = {
-						CreatedOnToolsVersion = 13.0;
-						LastSwiftMigration = 1300;
+						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 					DD86D54523D11B3E0046E63E = {
-						CreatedOnToolsVersion = 13.0;
-						LastSwiftMigration = 1300;
+						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 					DD86D56423D11C4B0046E63E = {
-						CreatedOnToolsVersion = 13.0;
-						LastSwiftMigration = 1300;
+						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 					DD86D56F23D11C860046E63E = {
-						CreatedOnToolsVersion = 13.0;
-						LastSwiftMigration = 1300;
+						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 					DD86D57723D11C860046E63E = {
-						CreatedOnToolsVersion = 13.0;
-						LastSwiftMigration = 1300;
+						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 					DD86D58B23D11CA00046E63E = {
-						CreatedOnToolsVersion = 13.0;
-						LastSwiftMigration = 1300;
+						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 					DD86D59323D11CA00046E63E = {
-						CreatedOnToolsVersion = 13.0;
-						LastSwiftMigration = 1300;
+						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 					DD86D5C323D11D140046E63E = {
-						CreatedOnToolsVersion = 13.0;
-						LastSwiftMigration = 1300;
+						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 				};
 			};
@@ -734,7 +734,7 @@
 			);
 			mainGroup = DD86D53323D11B3E0046E63E;
 			packageReferences = (
-				DD295395273017030096A94E /* XCRemoteSwiftPackageReference "ReadWriteLock" */,
+				DDA4213E273E143700F2B0BC /* XCRemoteSwiftPackageReference "ReadWriteLock" */,
 			);
 			productRefGroup = DD86D53E23D11B3E0046E63E /* Products */;
 			projectDirPath = "";
@@ -848,7 +848,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+			shellScript = "if (echo \"$SKIP_SWIFTLINT\" | grep -iq \"^YES$\"); then\n    echo \"SKIP_SWIFTLINT=YES | Skipping SwiftLint\"\nelse\n    if which swiftlint >/dev/null; then\n        swiftlint\n    else\n        echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n    fi\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -857,14 +857,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD295400273017B50096A94E /* SRDAssertionsSwiftTests.swift in Sources */,
-				DD2953F4273017B50096A94E /* SRDTestCaseObjCTests.m in Sources */,
-				DD295408273017B50096A94E /* SRDExceptionErrorSwiftTests.swift in Sources */,
-				DD2953F0273017B50096A94E /* SRDAssertionsObjCTests.m in Sources */,
-				DD2953FC273017B50096A94E /* SRDExceptionHandlingSwiftTests.swift in Sources */,
-				DD2953EC273017B50096A94E /* SRDExceptionHandlingObjCTests.m in Sources */,
-				DD2953F8273017B50096A94E /* SRDTestCaseSwiftTests.swift in Sources */,
-				DD295404273017B50096A94E /* SRDExceptionErrorTests.swift in Sources */,
+				DDA42174273E172D00F2B0BC /* SRDAssertionsSwiftTests.swift in Sources */,
+				DDA42168273E172D00F2B0BC /* SRDTestCaseObjCTests.m in Sources */,
+				DDA4217C273E172D00F2B0BC /* SRDExceptionErrorSwiftTests.swift in Sources */,
+				DDA42164273E172D00F2B0BC /* SRDAssertionsObjCTests.m in Sources */,
+				DDA42170273E172D00F2B0BC /* SRDExceptionHandlingSwiftTests.swift in Sources */,
+				DDA42160273E172D00F2B0BC /* SRDExceptionHandlingObjCTests.m in Sources */,
+				DDA4216C273E172D00F2B0BC /* SRDTestCaseSwiftTests.swift in Sources */,
+				DDA42178273E172D00F2B0BC /* SRDExceptionErrorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -872,15 +872,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD2953A82730177B0096A94E /* SRDAssertions.swift in Sources */,
-				DD2953A42730177B0096A94E /* SRDTestCase.swift in Sources */,
-				DD2953D3273017810096A94E /* SRDAssertions.m in Sources */,
+				DDA421B2273E173C00F2B0BC /* SRDAssertions.m in Sources */,
+				DDA42196273E173C00F2B0BC /* SRDExceptionError.swift in Sources */,
+				DDA421BA273E173C00F2B0BC /* SRDTestCase.m in Sources */,
+				DDA42192273E173C00F2B0BC /* SRDStringCase.swift in Sources */,
+				DDA4219A273E173C00F2B0BC /* SRDExceptionHandling.swift in Sources */,
+				DDA4218E273E173C00F2B0BC /* SRDAssertions.swift in Sources */,
 				DD3BB7212731B47100DB55F8 /* SRDTestUtilities.docc in Sources */,
-				DD2953D7273017810096A94E /* SRDExceptionHandling.m in Sources */,
-				DD2953B42730177B0096A94E /* SRDExceptionHandling.swift in Sources */,
-				DD2953DB273017810096A94E /* SRDTestCase.m in Sources */,
-				DD2953B02730177B0096A94E /* SRDStringCase.swift in Sources */,
-				DD2953AC2730177B0096A94E /* SRDExceptionError.swift in Sources */,
+				DDA421B6273E173C00F2B0BC /* SRDExceptionHandling.m in Sources */,
+				DDA4219E273E173C00F2B0BC /* SRDTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -888,14 +888,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD2953FD273017B50096A94E /* SRDAssertionsSwiftTests.swift in Sources */,
-				DD2953F1273017B50096A94E /* SRDTestCaseObjCTests.m in Sources */,
-				DD295405273017B50096A94E /* SRDExceptionErrorSwiftTests.swift in Sources */,
-				DD2953ED273017B50096A94E /* SRDAssertionsObjCTests.m in Sources */,
-				DD2953F9273017B50096A94E /* SRDExceptionHandlingSwiftTests.swift in Sources */,
-				DD2953E9273017B50096A94E /* SRDExceptionHandlingObjCTests.m in Sources */,
-				DD2953F5273017B50096A94E /* SRDTestCaseSwiftTests.swift in Sources */,
-				DD295401273017B50096A94E /* SRDExceptionErrorTests.swift in Sources */,
+				DDA42171273E172D00F2B0BC /* SRDAssertionsSwiftTests.swift in Sources */,
+				DDA42165273E172D00F2B0BC /* SRDTestCaseObjCTests.m in Sources */,
+				DDA42179273E172D00F2B0BC /* SRDExceptionErrorSwiftTests.swift in Sources */,
+				DDA42161273E172D00F2B0BC /* SRDAssertionsObjCTests.m in Sources */,
+				DDA4216D273E172D00F2B0BC /* SRDExceptionHandlingSwiftTests.swift in Sources */,
+				DDA4215D273E172D00F2B0BC /* SRDExceptionHandlingObjCTests.m in Sources */,
+				DDA42169273E172D00F2B0BC /* SRDTestCaseSwiftTests.swift in Sources */,
+				DDA42175273E172D00F2B0BC /* SRDExceptionErrorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -903,15 +903,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD2953A92730177B0096A94E /* SRDAssertions.swift in Sources */,
-				DD2953A52730177B0096A94E /* SRDTestCase.swift in Sources */,
-				DD2953D4273017810096A94E /* SRDAssertions.m in Sources */,
+				DDA421B3273E173C00F2B0BC /* SRDAssertions.m in Sources */,
+				DDA42197273E173C00F2B0BC /* SRDExceptionError.swift in Sources */,
+				DDA421BB273E173C00F2B0BC /* SRDTestCase.m in Sources */,
+				DDA42193273E173C00F2B0BC /* SRDStringCase.swift in Sources */,
+				DDA4219B273E173C00F2B0BC /* SRDExceptionHandling.swift in Sources */,
+				DDA4218F273E173C00F2B0BC /* SRDAssertions.swift in Sources */,
 				DD3BB7222731B47100DB55F8 /* SRDTestUtilities.docc in Sources */,
-				DD2953D8273017810096A94E /* SRDExceptionHandling.m in Sources */,
-				DD2953B52730177B0096A94E /* SRDExceptionHandling.swift in Sources */,
-				DD2953DC273017810096A94E /* SRDTestCase.m in Sources */,
-				DD2953B12730177B0096A94E /* SRDStringCase.swift in Sources */,
-				DD2953AD2730177B0096A94E /* SRDExceptionError.swift in Sources */,
+				DDA421B7273E173C00F2B0BC /* SRDExceptionHandling.m in Sources */,
+				DDA4219F273E173C00F2B0BC /* SRDTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -919,14 +919,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD2953FE273017B50096A94E /* SRDAssertionsSwiftTests.swift in Sources */,
-				DD2953F2273017B50096A94E /* SRDTestCaseObjCTests.m in Sources */,
-				DD295406273017B50096A94E /* SRDExceptionErrorSwiftTests.swift in Sources */,
-				DD2953EE273017B50096A94E /* SRDAssertionsObjCTests.m in Sources */,
-				DD2953FA273017B50096A94E /* SRDExceptionHandlingSwiftTests.swift in Sources */,
-				DD2953EA273017B50096A94E /* SRDExceptionHandlingObjCTests.m in Sources */,
-				DD2953F6273017B50096A94E /* SRDTestCaseSwiftTests.swift in Sources */,
-				DD295402273017B50096A94E /* SRDExceptionErrorTests.swift in Sources */,
+				DDA42172273E172D00F2B0BC /* SRDAssertionsSwiftTests.swift in Sources */,
+				DDA42166273E172D00F2B0BC /* SRDTestCaseObjCTests.m in Sources */,
+				DDA4217A273E172D00F2B0BC /* SRDExceptionErrorSwiftTests.swift in Sources */,
+				DDA42162273E172D00F2B0BC /* SRDAssertionsObjCTests.m in Sources */,
+				DDA4216E273E172D00F2B0BC /* SRDExceptionHandlingSwiftTests.swift in Sources */,
+				DDA4215E273E172D00F2B0BC /* SRDExceptionHandlingObjCTests.m in Sources */,
+				DDA4216A273E172D00F2B0BC /* SRDTestCaseSwiftTests.swift in Sources */,
+				DDA42176273E172D00F2B0BC /* SRDExceptionErrorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -934,15 +934,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD2953AA2730177B0096A94E /* SRDAssertions.swift in Sources */,
-				DD2953A62730177B0096A94E /* SRDTestCase.swift in Sources */,
-				DD2953D5273017810096A94E /* SRDAssertions.m in Sources */,
+				DDA421B4273E173C00F2B0BC /* SRDAssertions.m in Sources */,
+				DDA42198273E173C00F2B0BC /* SRDExceptionError.swift in Sources */,
+				DDA421BC273E173C00F2B0BC /* SRDTestCase.m in Sources */,
+				DDA42194273E173C00F2B0BC /* SRDStringCase.swift in Sources */,
+				DDA4219C273E173C00F2B0BC /* SRDExceptionHandling.swift in Sources */,
+				DDA42190273E173C00F2B0BC /* SRDAssertions.swift in Sources */,
 				DD3BB7232731B47200DB55F8 /* SRDTestUtilities.docc in Sources */,
-				DD2953D9273017810096A94E /* SRDExceptionHandling.m in Sources */,
-				DD2953B62730177B0096A94E /* SRDExceptionHandling.swift in Sources */,
-				DD2953DD273017810096A94E /* SRDTestCase.m in Sources */,
-				DD2953B22730177B0096A94E /* SRDStringCase.swift in Sources */,
-				DD2953AE2730177B0096A94E /* SRDExceptionError.swift in Sources */,
+				DDA421B8273E173C00F2B0BC /* SRDExceptionHandling.m in Sources */,
+				DDA421A0273E173C00F2B0BC /* SRDTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -950,14 +950,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD2953FF273017B50096A94E /* SRDAssertionsSwiftTests.swift in Sources */,
-				DD2953F3273017B50096A94E /* SRDTestCaseObjCTests.m in Sources */,
-				DD295407273017B50096A94E /* SRDExceptionErrorSwiftTests.swift in Sources */,
-				DD2953EF273017B50096A94E /* SRDAssertionsObjCTests.m in Sources */,
-				DD2953FB273017B50096A94E /* SRDExceptionHandlingSwiftTests.swift in Sources */,
-				DD2953EB273017B50096A94E /* SRDExceptionHandlingObjCTests.m in Sources */,
-				DD2953F7273017B50096A94E /* SRDTestCaseSwiftTests.swift in Sources */,
-				DD295403273017B50096A94E /* SRDExceptionErrorTests.swift in Sources */,
+				DDA42173273E172D00F2B0BC /* SRDAssertionsSwiftTests.swift in Sources */,
+				DDA42167273E172D00F2B0BC /* SRDTestCaseObjCTests.m in Sources */,
+				DDA4217B273E172D00F2B0BC /* SRDExceptionErrorSwiftTests.swift in Sources */,
+				DDA42163273E172D00F2B0BC /* SRDAssertionsObjCTests.m in Sources */,
+				DDA4216F273E172D00F2B0BC /* SRDExceptionHandlingSwiftTests.swift in Sources */,
+				DDA4215F273E172D00F2B0BC /* SRDExceptionHandlingObjCTests.m in Sources */,
+				DDA4216B273E172D00F2B0BC /* SRDTestCaseSwiftTests.swift in Sources */,
+				DDA42177273E172D00F2B0BC /* SRDExceptionErrorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -965,15 +965,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD2953AB2730177B0096A94E /* SRDAssertions.swift in Sources */,
-				DD2953A72730177B0096A94E /* SRDTestCase.swift in Sources */,
-				DD2953D6273017810096A94E /* SRDAssertions.m in Sources */,
+				DDA421B5273E173C00F2B0BC /* SRDAssertions.m in Sources */,
+				DDA42199273E173C00F2B0BC /* SRDExceptionError.swift in Sources */,
+				DDA421BD273E173C00F2B0BC /* SRDTestCase.m in Sources */,
+				DDA42195273E173C00F2B0BC /* SRDStringCase.swift in Sources */,
+				DDA4219D273E173C00F2B0BC /* SRDExceptionHandling.swift in Sources */,
+				DDA42191273E173C00F2B0BC /* SRDAssertions.swift in Sources */,
 				DD3BB7242731B47200DB55F8 /* SRDTestUtilities.docc in Sources */,
-				DD2953DA273017810096A94E /* SRDExceptionHandling.m in Sources */,
-				DD2953B72730177B0096A94E /* SRDExceptionHandling.swift in Sources */,
-				DD2953DE273017810096A94E /* SRDTestCase.m in Sources */,
-				DD2953B32730177B0096A94E /* SRDStringCase.swift in Sources */,
-				DD2953AF2730177B0096A94E /* SRDExceptionError.swift in Sources */,
+				DDA421B9273E173C00F2B0BC /* SRDExceptionHandling.m in Sources */,
+				DDA421A1273E173C00F2B0BC /* SRDTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1710,7 +1710,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		DD295395273017030096A94E /* XCRemoteSwiftPackageReference "ReadWriteLock" */ = {
+		DDA4213E273E143700F2B0BC /* XCRemoteSwiftPackageReference "ReadWriteLock" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SomeRandomiOSDev/ReadWriteLock";
 			requirement = {
@@ -1721,24 +1721,24 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		DD295396273017030096A94E /* ReadWriteLock */ = {
+		DDA4213F273E143700F2B0BC /* ReadWriteLock */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DD295395273017030096A94E /* XCRemoteSwiftPackageReference "ReadWriteLock" */;
+			package = DDA4213E273E143700F2B0BC /* XCRemoteSwiftPackageReference "ReadWriteLock" */;
 			productName = ReadWriteLock;
 		};
-		DD295399273017270096A94E /* ReadWriteLock */ = {
+		DDA42142273E144900F2B0BC /* ReadWriteLock */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DD295395273017030096A94E /* XCRemoteSwiftPackageReference "ReadWriteLock" */;
+			package = DDA4213E273E143700F2B0BC /* XCRemoteSwiftPackageReference "ReadWriteLock" */;
 			productName = ReadWriteLock;
 		};
-		DD29539B2730172B0096A94E /* ReadWriteLock */ = {
+		DDA42144273E144C00F2B0BC /* ReadWriteLock */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DD295395273017030096A94E /* XCRemoteSwiftPackageReference "ReadWriteLock" */;
+			package = DDA4213E273E143700F2B0BC /* XCRemoteSwiftPackageReference "ReadWriteLock" */;
 			productName = ReadWriteLock;
 		};
-		DD29539D2730172F0096A94E /* ReadWriteLock */ = {
+		DDA42146273E145000F2B0BC /* ReadWriteLock */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DD295395273017030096A94E /* XCRemoteSwiftPackageReference "ReadWriteLock" */;
+			package = DDA4213E273E143700F2B0BC /* XCRemoteSwiftPackageReference "ReadWriteLock" */;
 			productName = ReadWriteLock;
 		};
 /* End XCSwiftPackageProductDependency section */

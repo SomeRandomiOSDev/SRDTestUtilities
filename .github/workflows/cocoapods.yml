@@ -1,10 +1,28 @@
 name: Cocoapods
-on: [push, workflow_dispatch]
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - '**'
+    tags-ignore:
+      - '**'
+    paths-ignore:
+      - '.github/**' # Ignore all files under '.github'
+      - '!.github/workflows/cocoapods.yml' # Except for this workflow
+      - '.gitignore'
+      - '.swiftlint.yml'
+      - 'codecov.yml'
+      - 'Documentation/**'
+      - 'LICENSE'
+      - 'Package.swift'
+      - 'README.md'
 
 jobs:
   lint:
     name: Lint
     runs-on: macOS-11
+    env:
+      LOGSDIR: /tmp/.srdtestutilities.cocoapods/Logs
 
     steps:
     - name: Checkout Code
@@ -17,4 +35,11 @@ jobs:
 
     - name: Lint
       run: |
-        pod lib lint
+        pod lib lint --verbose 2>&1 | tee "$LOGSDIR/PodLint.log"
+
+    - name: Upload Logs
+      uses: actions/upload-artifact@v2
+      if: always()
+      with:
+        name: Logs
+        path: ${{ env.LOGSDIR }}/*.log

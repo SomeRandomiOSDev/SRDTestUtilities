@@ -111,7 +111,7 @@ This is only a partial list of all of the APIs that are provided by this framewo
 
 ## Contributing
 
-If you have need for a specific feature or you encounter a bug, please open an issue. If you extend the functionality of **SRDTestUtilities** yourself or you feel like fixing a bug yourself, please submit a pull request.
+Whether it's submitting a feature request, reporting a bug, or writing code yourself, all contributions to this project are welcome! Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for more information on how you can contribute.
 
 ## Author
 
