@@ -21,25 +21,42 @@ jobs:
     name: Build
     runs-on: macOS-11
     env:
-      LOGSDIR: /tmp/.srdtestutilities.swiftpm/Logs
+      LOGSDIR: /tmp/.srdtestutilities.swiftpm/Logs/Build
 
     steps:
     - name: Checkout Code
       uses: actions/checkout@v2
+
+    - name: Setup Environment
+      run: |
+        mkdir -p "$LOGSDIR"
 
     - name: Build
       run: |
         swift --version | tee "$LOGSDIR/Build.log"
         swift build --verbose | tee -a "$LOGSDIR/Build.log"
 
+    - name: Upload Logs
+      uses: actions/upload-artifact@v2
+      if: always()
+      with:
+        name: BuildLogs
+        path: ${{ env.LOGSDIR }}/*.log
+
   test:
     name: Test
     runs-on: macOS-11
     needs: build
+    env:
+      LOGSDIR: /tmp/.srdtestutilities.swiftpm/Logs/Test
 
     steps:
     - name: Checkout Code
       uses: actions/checkout@v2
+
+    - name: Setup Environment
+      run: |
+        mkdir -p "$LOGSDIR"
 
     - name: Test
       run: |
@@ -57,3 +74,10 @@ jobs:
         token: ${{ secrets.CODECOV_TOKEN }}
         file: ./codecov.lcov
         verbose: true
+
+    - name: Upload Logs
+      uses: actions/upload-artifact@v2
+      if: always()
+      with:
+        name: TestLogs
+        path: ${{ env.LOGSDIR }}/*.log

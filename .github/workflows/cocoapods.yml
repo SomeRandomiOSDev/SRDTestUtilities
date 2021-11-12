@@ -33,6 +33,10 @@ jobs:
       with:
         version: latest
 
+    - name: Setup Environment
+      run: |
+        mkdir -p "$LOGSDIR"
+
     - name: Lint
       run: |
         pod lib lint --verbose 2>&1 | tee "$LOGSDIR/PodLint.log"
