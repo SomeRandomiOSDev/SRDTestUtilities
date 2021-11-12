@@ -7,12 +7,13 @@
 [![Platform](https://img.shields.io/cocoapods/p/SRDTestUtilities.svg)](https://cocoapods.org/pods/SRDTestUtilities)
 [![Code Coverage](https://codecov.io/gh/SomeRandomiOSDev/SRDTestUtilities/branch/master/graph/badge.svg)](https://codecov.io/gh/SomeRandomiOSDev/SRDTestUtilities)
 
-![Carthage](https://github.com/SomeRandomiOSDev/SRDTestUtilities/workflows/Carthage/badge.svg)
-![Cocoapods](https://github.com/SomeRandomiOSDev/SRDTestUtilities/workflows/Cocoapods/badge.svg)
-![Swift Package](https://github.com/SomeRandomiOSDev/SRDTestUtilities/workflows/Swift%20Package/badge.svg)
-![SwiftLint](https://github.com/SomeRandomiOSDev/SRDTestUtilities/actions/workflows/swiftlint.yml/badge.svg)
-![XCFramework](https://github.com/SomeRandomiOSDev/SRDTestUtilities/actions/workflows/xcframework.yml/badge.svg)
-![Xcode Project](https://github.com/SomeRandomiOSDev/SRDTestUtilities/workflows/Xcode%20Project/badge.svg)
+[![Carthage](https://github.com/SomeRandomiOSDev/SRDTestUtilities/actions/workflows/carthage.yml/badge.svg)](https://github.com/SomeRandomiOSDev/SRDTestUtilities/actions/workflows/carthage.yml)
+[![Cocoapods](https://github.com/SomeRandomiOSDev/SRDTestUtilities/actions/workflows/cocoapods.yml/badge.svg)](https://github.com/SomeRandomiOSDev/SRDTestUtilities/actions/workflows/cocoapods.yml)
+[![Documentation](https://github.com/SomeRandomiOSDev/SRDTestUtilities/actions/workflows/documentation.yml/badge.svg)](https://github.com/SomeRandomiOSDev/SRDTestUtilities/actions/workflows/documentation.yml)
+[![Swift Package](https://github.com/SomeRandomiOSDev/SRDTestUtilities/actions/workflows/swift-package.yml/badge.svg)](https://github.com/SomeRandomiOSDev/SRDTestUtilities/actions/workflows/swift-package.yml)
+[![SwiftLint](https://github.com/SomeRandomiOSDev/SRDTestUtilities/actions/workflows/swiftlint.yml/badge.svg)](https://github.com/SomeRandomiOSDev/SRDTestUtilities/actions/workflows/swiftlint.yml)
+[![XCFramework](https://github.com/SomeRandomiOSDev/SRDTestUtilities/actions/workflows/xcframework.yml/badge.svg)](https://github.com/SomeRandomiOSDev/SRDTestUtilities/actions/workflows/xcframework.yml)
+[![Xcode Project](https://github.com/SomeRandomiOSDev/SRDTestUtilities/actions/workflows/xcodebuild.yml/badge.svg)](https://github.com/SomeRandomiOSDev/SRDTestUtilities/actions/workflows/xcodebuild.yml)
 
 A lightweight framework that provides a collection of APIs that are useful for unit testing.
 
