@@ -30,9 +30,14 @@ jobs:
     - name: Checkout Code
       uses: actions/checkout@v2
 
+    - name: Setup Environment
+      run: |
+        mkdir -p "${TMPDIR}/Output"
+        mkdir -p "${TMPDIR}/Logs"
+
     - name: Build
       run: |
-        ./scripts/xcframework.sh --build-dir "$TMPDIR" -- RUN_DOCUMENTATION_COMPILER=NO SKIP_SWIFTLINT=YES
+        ./scripts/xcframework.sh --build-dir "${TMPDIR}" -- RUN_DOCUMENTATION_COMPILER=NO SKIP_SWIFTLINT=YES
 
     - name: Upload Logs
       uses: actions/upload-artifact@v2

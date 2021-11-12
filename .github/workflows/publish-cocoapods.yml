@@ -20,6 +20,10 @@ jobs:
       with:
         version: latest
 
+    - name: Setup Environment
+      run: |
+        mkdir -p "$LOGSDIR"
+
     - name: Publish CocoaPod
       run: |
         pod trunk push SRDTestUtilities.podspec --verbose 2>&1 | tee "$LOGSDIR/CocoaPods.log"
